@@ -1,0 +1,59 @@
+
+
+
+
+//fonts
+$font-family: "Manrope", sans-serif;
+
+
+
+//Colors
+$white: white;
+$logo-gradient:linear-gradient(135deg, #72a5ff 0%, #28bdf7 100%);
+$black-overlay: rgba(15, 15, 15, 0.76);
+$logo-green: #5e8da8;
+$logo-blue: #80acff ;
+$orange: #d87d4a;
+$orange-light: #fbaf85;
+$black: #272727;
+$very-black: #000000;
+$gray: #f1f1f1;
+$light-gray: #fafafa;
+$very-light-gray: #ffffff;
+$rectangle: rgb(78, 78, 78);
+$warning : rgb(148, 14, 14);
+
+
+//Body config
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: $font-family;
+  // overflow-x: hidden;
+}
+
+//image config
+img {
+  width: 100%;
+}
+
+
+//html min height
+html {
+  min-height: 100%;
+}
+
+
+li{
+    list-style: none;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+.error{
+  color: $warning;
+}
